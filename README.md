@@ -23,7 +23,7 @@ float b = 3.14f
 
 ### 2.类型转换
 
-<img src="C:\Users\风之子\AppData\Roaming\Typora\typora-user-images\image-20240417215200143.png" alt="image-20240417215200143" style="zoom:" />
+<img src="images\image-20240417215200143.png" alt="image-20240417215200143" style="zoom:" />
 
 - 强制转换，（类型）变量名，容量由高到低  
 
