@@ -1,0 +1,7 @@
+{
+  "name": "aritcle_add_row",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

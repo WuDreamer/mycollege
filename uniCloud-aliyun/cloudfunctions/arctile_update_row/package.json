@@ -1,0 +1,7 @@
+{
+  "name": "arctile_update_row",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

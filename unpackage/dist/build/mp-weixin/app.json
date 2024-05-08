@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/add/add",
+    "pages/edit/edit",
+    "pages/detial/detial",
+    "pages/about/about",
+    "pages/aboutme/aboutme",
+    "pages/login/login",
+    "pages/privacy/privacy",
+    "pages/register/register",
+    "pages/service/service",
+    "pages/useragreement/useragreement",
+    "pages/search/search"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "我的博客",
+    "navigationBarBackgroundColor": "#269939",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/images/home.png",
+        "selectedIconPath": "static/images/home-h.png",
+        "iconfont": {
+          "color": "#ffffff",
+          "selectedColor": "#2b9939"
+        }
+      },
+      {
+        "text": "发布",
+        "pagePath": "pages/add/add",
+        "iconPath": "/static/image/发布1.png",
+        "selectedIconPath": "static/image/发布1.png",
+        "iconfont": {
+          "color": "#ffffff",
+          "selectedColor": "#2b9939"
+        }
+      },
+      {
+        "text": "个人",
+        "pagePath": "pages/about/about",
+        "iconPath": "static/images/user.png",
+        "selectedIconPath": "static/images/user-h.png",
+        "iconfont": {
+          "color": "#ffffff",
+          "selectedColor": "#2b9939"
+        }
+      }
+    ]
+  },
+  "usingComponents": {}
+}

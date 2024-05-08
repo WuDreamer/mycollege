@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.home .swiper.data-v-57280228 {
+  height: 400rpx;
+  width: 100%;
+}
+.home .item.data-v-57280228 {
+  height: 100%;
+  width: 100%;
+}
+.home .container.data-v-57280228 {
+  display: flex;
+  flex-direction: column;
+}
+.home .box-row.data-v-57280228 {
+  display: flex;
+  justify-content: space-between;
+  /* 等距间隔 */
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+  margin-top: 20rpx;
+}
+.home .box.data-v-57280228 {
+  padding: 10px;
+  border: 1px solid #ccc;
+  /* 边框 */
+  border-radius: 15rpx;
+  /* 圆角 */
+  /* 默认的背景色可以在这里设置，但第一个盒子的不同背景色需要通过 data 或计算属性来处理 */
+}
+.home .box.active.data-v-57280228 {
+  /* 激活状态的背景色 */
+  background-color: #6db33f;
+}
+.home .content.data-v-57280228 {
+  padding-right: 10rpx;
+  padding-top: 10rpx;
+  padding-left: 2rpx;
+}
+.home .content .item.data-v-57280228 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #eee;
+}
+.home .content .item .text.data-v-57280228 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 20rpx;
+}
+.home .content .item .text .title.data-v-57280228 {
+  font-size: 40rpx;
+  color: #333;
+  text-align: justify;
+  overflow: hidden;
+  /* 隐藏超出元素框的内容 */
+  -webkit-line-clamp: 2;
+  /* 限制文本显示的行数为两行 */
+  text-overflow: ellipsis;
+  /* 当文本溢出容器时，使用省略号表示 */
+  display: -webkit-box;
+  /* 将元素作为弹性伸缩盒子模型显示 */
+  -webkit-box-orient: vertical;
+  /* 设置伸缩盒对象的子元素的排列方式为垂直 */
+}
+.home .content .item .text .title text.data-v-57280228 {
+  color: red;
+}
+.home .content .item .text .info.data-v-57280228 {
+  font-size: 28rpx;
+  color: #888;
+}
+.home .content .item .text .info text.data-v-57280228 {
+  padding-right: 10rpx;
+}
+.home .content .item .pic.data-v-57280228 {
+  width: 260rpx;
+  height: 180rpx;
+}
+.home .content .item .pic image.data-v-57280228 {
+  width: 100%;
+  height: 100%;
+}
+.home .goEdit.data-v-57280228 {
+  width: 120rpx;
+  height: 120rpx;
+  background: #2B9939;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 50rpx;
+  position: fixed;
+  right: 60rpx;
+  bottom: 100rpx;
+  box-shadow: 0 0 20rpx rgba(43, 154, 57, 0.7);
+}
+
