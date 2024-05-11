@@ -23,7 +23,7 @@ float b = 3.14f
 
 ### 2.类型转换
 
-<img src="images\image-20240417215200143.png" alt="image-20240417215200143" style="zoom:" />
+<img src="images\image-20240417215200143.png" alt="image-20240443" style="zoom:" />
 
 - 强制转换，（类型）变量名，容量由高到低  
 
